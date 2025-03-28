@@ -17,6 +17,11 @@ resultado = int(numero1+numero2)
 print (f"El resultado de {numero1} + {numero2} = {resultado}")
 
 #4.	Solicita dos números e imprime su resta.
+numero1 = int(input("Introduce un numero: "))
+numero2 = int(input("Introduce un numero: "))
+resultado = int(numero1+numero2)
+print (f"El resultado de {numero1} - {numero2} = {resultado}")
+
 #5.	Solicita dos números e imprime su multiplicación.
 #6.	Solicita dos números e imprime su división.
 #7.	Solicita un número e imprime si es par o impar.
