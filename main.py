@@ -29,6 +29,17 @@ resultado = int(numero1+numero2)
 print (f"El resultado de {numero1} * {numero2} = {resultado}")
 
 #6.	Solicita dos números e imprime su división.
+numero1 = int(input("Introduce un numero: "))
+
+while True:
+    numero2 = int(input("Ingrese un número distinto de 0: "))
+    if numero2 != 0:
+        break
+    print("El número no puede ser 0. Intenta nuevamente.")
+
+resultado = numero1 / numero2
+print(f"El resultado de {numero1} / {numero2} = {resultado}")
+
 #7.	Solicita un número e imprime si es par o impar.
 #8.	Solicita un número e imprime si es positivo, negativo o cero.
 #9.	Solicita dos números e imprime cuál es mayor.
