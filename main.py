@@ -41,6 +41,12 @@ resultado = numero1 / numero2
 print(f"El resultado de {numero1} / {numero2} = {resultado}")
 
 #7.	Solicita un número e imprime si es par o impar.
+espar = int(input("Introduce un numero"))
+if espar %2 == 0 :
+    print(f"El numero {espar} es par")
+else:
+    print(f"El numero {espar}  es impar")
+
 #8.	Solicita un número e imprime si es positivo, negativo o cero.
 #9.	Solicita dos números e imprime cuál es mayor.
 #10. Solicita tres números e imprime el mayor de los tres.
