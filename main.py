@@ -6,11 +6,16 @@ print("Hola mundo")
 
 #2.	Solicita un número e imprímelo en pantalla.
 
-num1= int(input("Ingrese un numero: "))
+ex2= int(input("Ingrese un numero: "))
 
-print("$ num1")
+print (f"Numero seleccionado : {ex2}")
 
 #3.	Solicita dos números e imprime su suma.
+numero1 = int(input("Introduce un numero: "))
+numero2 = int(input("Introduce un numero: "))
+resultado = int(numero1+numero2)
+print (f"El resultado de {numero1} + {numero2} = {resultado}")
+
 #4.	Solicita dos números e imprime su resta.
 #5.	Solicita dos números e imprime su multiplicación.
 #6.	Solicita dos números e imprime su división.
