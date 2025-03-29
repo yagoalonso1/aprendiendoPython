@@ -56,6 +56,14 @@ elif tipoNumero < 0 :
 else:
     print(f"{tipoNumero} es 0")
 #9.	Solicita dos números e imprime cuál es mayor.
+numMenor=int(input("Introduce el primer numero y te dire cual es mayor"))
+numMenor2=int(input("Introduce el segundo numero y te dire cual es mayor"))
+
+if numMenor < numMenor2 :
+    print(f"El numero {numMenor2} es mas grande")
+else:
+    print (f"f El numero {numMenor} es mas grande")
+
 #10. Solicita tres números e imprime el mayor de los tres.
 #11. Solicita un número y muestra su tabla de multiplicar hasta el 10.
 #12. Convierte grados Celsius a Fahrenheit.
