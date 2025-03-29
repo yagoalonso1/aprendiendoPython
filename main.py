@@ -48,6 +48,13 @@ else:
     print(f"El numero {espar}  es impar")
 
 #8.	Solicita un número e imprime si es positivo, negativo o cero.
+tipoNumero = int(input("Introduce el numero y te dire de que tipo es"))
+if tipoNumero > 0 :
+    print (f"{tipoNumero} es positivo")
+elif tipoNumero < 0 :
+    print(f"{tipoNumero} es negativo")
+else:
+    print(f"{tipoNumero} es 0")
 #9.	Solicita dos números e imprime cuál es mayor.
 #10. Solicita tres números e imprime el mayor de los tres.
 #11. Solicita un número y muestra su tabla de multiplicar hasta el 10.
