@@ -74,6 +74,11 @@ for i in range (3) :
 print(f"El numero mas alto es {numeroMaximo}")
 
 #11. Solicita un número y muestra su tabla de multiplicar hasta el 10.
+variable = int(input("Escribe un número y te daré su tabla de multiplicar hasta 10 \n"))
+print (f"La taula del {variable} :  ")
+for i in range (1,11):
+   resultadoTabla = variable * i
+   print(f" {variable} * {i} = {resultadoTabla} \n")
 #12. Convierte grados Celsius a Fahrenheit.
 #13. Convierte kilómetros a millas.
 #14. Calcula el área de un triángulo dados su base y altura.
