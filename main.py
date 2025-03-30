@@ -6,33 +6,33 @@ print("Hola mundo")
 
 #2.	Solicita un número e imprímelo en pantalla.
 
-ex2= int(input("Ingrese un numero: "))
+ex2= int(input("Introduce un número y te lo muestro por pantalla: "))
 
 print (f"Numero seleccionado : {ex2}")
 
 #3.	Solicita dos números e imprime su suma.
-numero1 = int(input("Introduce un numero: "))
-numero2 = int(input("Introduce un numero: "))
+numero1 = int(input("Introduce el primer numerador: "))
+numero2 = int(input("Introduce el segundo numerador : "))
 resultado = int(numero1+numero2)
 print (f"El resultado de {numero1} + {numero2} = {resultado}")
 
 #4.	Solicita dos números e imprime su resta.
-numero1 = int(input("Introduce un numero: "))
-numero2 = int(input("Introduce un numero: "))
-resultado = int(numero1+numero2)
+numero1 = int(input("Introduce el primer producto: "))
+numero2 = int(input("Introduce el segundo producto: "))
+resultado = int(numero1-numero2)
 print (f"El resultado de {numero1} - {numero2} = {resultado}")
 
 #5.	Solicita dos números e imprime su multiplicación.
-numero1 = int(input("Introduce un numero: "))
-numero2 = int(input("Introduce un numero: "))
+numero1 = int(input("Introduce el primer producto : "))
+numero2 = int(input("Introduce el segundo producto : "))
 resultado = int(numero1+numero2)
 print (f"El resultado de {numero1} * {numero2} = {resultado}")
 
 #6.	Solicita dos números e imprime su división.
-numero1 = int(input("Introduce un numero: "))
+numero1 = int(input("Introduce el numerador: "))
 
 while True:
-    numero2 = int(input("Ingrese un número distinto de 0: "))
+    numero2 = int(input("Ingrese el denominador distinto de 0: "))
     if numero2 != 0:
         break
     print("El número no puede ser 0. Intenta nuevamente.")
@@ -41,14 +41,14 @@ resultado = numero1 / numero2
 print(f"El resultado de {numero1} / {numero2} = {resultado}")
 
 #7.	Solicita un número e imprime si es par o impar.
-espar = int(input("Introduce un numero"))
+espar = int(input("Introduce un número y te diré si es par o no. "))
 if espar %2 == 0 :
-    print(f"El numero {espar} es par")
+    print(f"El número {espar} es par")
 else:
-    print(f"El numero {espar}  es impar")
+    print(f"El número {espar}  es impar")
 
 #8.	Solicita un número e imprime si es positivo, negativo o cero.
-tipoNumero = int(input("Introduce el numero y te dire de que tipo es"))
+tipoNumero = int(input("Introduce el número y te dire de que tipo es"))
 if tipoNumero > 0 :
     print (f"{tipoNumero} es positivo")
 elif tipoNumero < 0 :
@@ -65,6 +65,14 @@ else:
     print (f"f El numero {numMenor} es mas grande")
 
 #10. Solicita tres números e imprime el mayor de los tres.
+vector = [0] * 3
+print("Introduce el primnero de los tres numeros y te imprimo el mayor: ")
+for i in range (3) :
+    numeroGuardado = int(input(f"Introduce el número que quieres guardar en la array en posicion {i}" ))
+    vector [i] = numeroGuardado
+    numeroMaximo = max(vector)
+print(f"El numero mas alto es {numeroMaximo}")
+
 #11. Solicita un número y muestra su tabla de multiplicar hasta el 10.
 #12. Convierte grados Celsius a Fahrenheit.
 #13. Convierte kilómetros a millas.
