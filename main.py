@@ -80,6 +80,9 @@ for i in range (1,11):
    resultadoTabla = variable * i
    print(f" {variable} * {i} = {resultadoTabla} \n")
 #12. Convierte grados Celsius a Fahrenheit.
+celsius = float(input("Cuántos grados Celsius quieres pasar a Fahrenheit: "))
+fahrenheit = float(celsius * 1.8 + 32.0)
+print(f"{celsius}° Celsius son {fahrenheit}° Fahrenheit")
 #13. Convierte kilómetros a millas.
 #14. Calcula el área de un triángulo dados su base y altura.
 #15. Calcula el perímetro de un círculo dado su radio.
