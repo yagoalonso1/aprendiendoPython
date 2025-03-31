@@ -1,4 +1,5 @@
 #EJERCICIOS BASICOS
+import math
 
 #1. Imprime “Hola, mundo” en pantalla.
 
@@ -93,3 +94,6 @@ base = 2
 altura = 2
 area = base * altura /2
 #15. Calcula el perímetro de un círculo dado su radio.
+radio = 2
+perimetro = 2 * radio * math.pi
+print(f"El perimetro de un circulo con radio {radio} es de {perimetro}")
