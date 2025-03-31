@@ -110,7 +110,15 @@ if (numeromultiplo5 % 5 == 0 ) :
 else:
     print(f"El número {numeromultiplo5} no es multiplo de 5")
 #18. Solicita un año e imprime si es bisiesto.
-
+yearBisiesto = input("Introduce un año y te diré si es bisiesto o no")
+if yearBisiesto % 4 != 0 :
+    print("No es bisiesto")
+elif yearBisiesto % 4 == 0 and yearBisiesto % 100 != 0:  # divisible entre 4 y no entre 100 o 400
+    print("Es bisiesto")
+elif yearBisiesto % 4 == 0 and yearBisiesto % 100 == 0 and yearBisiesto % 400 != 0:  # divisible entre 4 y 10 y no entre 400
+    print("No es bisiesto")
+elif yearBisiesto % 4 == 0 and yearBisiesto % 100 == 0 and yearBisiesto % 400 == 0:  # divisible entre 4, 100 y 400
+    print("Es bisiesto")
 #19. Solicita tres números e imprime si pueden formar un triángulo.
 
 #20. Verifica si un número es un dígito (entre 0 y 9).
