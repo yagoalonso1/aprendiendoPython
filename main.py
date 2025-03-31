@@ -104,7 +104,11 @@ if (numeromultiplo3 % 3 == 0 ) :
 else:
     print(f"El número {numeromultiplo3} no es multiplo de 3")
 #17. Solicita un número e imprime si es múltiplo de 5.
-
+numeromultiplo5 = int(input("Introduce un número y te diré si es multiplo de 5: \n"))
+if (numeromultiplo5 % 5 == 0 ) :
+    print(f"El número {numeromultiplo5}  es multiplo de 5")
+else:
+    print(f"El número {numeromultiplo5} no es multiplo de 5")
 #18. Solicita un año e imprime si es bisiesto.
 
 #19. Solicita tres números e imprime si pueden formar un triángulo.
