@@ -89,4 +89,7 @@ millas = km / 1.60934
 print(f"{km} km son {millas}mi")
 #1,609,34 km = 1 mi
 #14. Calcula el área de un triángulo dados su base y altura.
+base = 2
+altura = 2
+area = base * altura /2
 #15. Calcula el perímetro de un círculo dado su radio.
