@@ -97,3 +97,176 @@ area = base * altura /2
 radio = 2
 perimetro = 2 * radio * math.pi
 print(f"El perimetro de un circulo con radio {radio} es de {perimetro}")
+#16. Solicita un número e imprime si es múltiplo de 3.
+numeromultiplo3 = int(input("Introduce un número y te diré si es multiplo de 3: \n"))
+if (numeromultiplo3 % 3 == 0 ) :
+    print(f"El número {numeromultiplo3}  es multiplo de 3")
+else:
+    print(f"El número {numeromultiplo3} no es multiplo de 3")
+#17. Solicita un número e imprime si es múltiplo de 5.
+
+#18. Solicita un año e imprime si es bisiesto.
+
+#19. Solicita tres números e imprime si pueden formar un triángulo.
+
+#20. Verifica si un número es un dígito (entre 0 y 9).
+
+#21. Solicita una letra e imprime si es vocal o consonante.
+
+#22. Verifica si un número tiene dos cifras.
+
+#23. Solicita una contraseña y verifica si es "1234".
+
+#24. Calcula el descuento en una compra según el monto total.
+
+#25. Determina si un número es primo.
+
+#26. Imprime los números del 1 al 10 con un while.
+
+#27. Imprime los números del 1 al 10 con un for.
+
+#28. Imprime los números pares del 1 al 20.
+
+#29. Imprime los números impares del 1 al 20.
+
+#30. Imprime la suma de los números del 1 al 100.
+
+#31. Imprime la suma de los números pares del 1 al 100.
+
+#32. Cuenta cuántos múltiplos de 3 hay entre 1 y 100.
+
+#33. Pide números hasta que el usuario ingrese un 0.
+
+#34. Pide números hasta que el usuario ingrese un negativo.
+
+#35. Muestra la serie de Fibonacci hasta el término número 10.
+
+#36. Cuenta cuántos números pares e impares hay en una lista de 10 números.
+
+#37. Pide una palabra e imprime cada letra en una línea separada.
+
+#38. Pide un número y muestra sus divisores.
+
+#39. Calcula el factorial de un número.
+
+#40. Invierte una cadena ingresada por el usuario.
+
+#41. Crea una lista con los números del 1 al 10.
+
+#42. Crea una lista de 5 palabras e imprímelas.
+
+#43. Pide 5 números y guárdalos en una lista.
+
+#44. Encuentra el número mayor en una lista de 10 números.
+
+#45. Suma todos los números de una lista.
+
+#46. Cuenta cuántas veces aparece un número en una lista.
+
+#47. Imprime la lista en orden inverso.
+
+#48. Elimina los elementos duplicados de una lista.
+
+#49. Ordena una lista de números de menor a mayor.
+
+#50. Encuentra el segundo número más grande de una lista.
+
+#51. Une dos listas en una sola.
+
+#52. Cuenta cuántas palabras tienen más de 5 letras en una lista.
+
+#53. Sustituye todas las vocales de una palabra por "*".
+
+#54. Cuenta cuántas veces aparece una letra en una frase.
+
+#55. Verifica si una palabra es un palíndromo.
+
+#56. Concatena los elementos de una lista en una sola cadena.
+
+#57. Crea un archivo y escribe "Hola, mundo".
+
+#58. Lee el contenido de un archivo de texto.
+
+#59. Escribe 5 líneas en un archivo.
+
+#60. Cuenta cuántas líneas tiene un archivo.
+
+#61. Cuenta cuántas palabras hay en un archivo.
+
+#62. Copia el contenido de un archivo en otro.
+
+#63. Encuentra la palabra más larga en un archivo.
+
+#64. Reemplaza una palabra específica en un archivo.
+
+#65. Escribe una lista de números en un archivo y luego léelos.
+
+#66. Crea una función que reciba un número y devuelva su cuadrado.
+
+#67. Crea una función que reciba dos números y devuelva su suma.
+
+#68. Crea una función que determine si un número es par.
+
+#69. Crea una función que reciba una lista y devuelva el número mayor.
+
+#70. Crea una función que determine si un número es primo.
+
+#71. Crea una función que invierta una cadena.
+
+#72. Crea una función que cuente cuántas vocales tiene una palabra.
+
+#73. Crea una función que reciba una lista y devuelva la suma de sus elementos.
+
+#74. Crea una función que verifique si un número es múltiplo de otro.
+
+#75. Crea una función que reciba dos listas y devuelva una lista con los elementos comunes.
+
+#76. Crea una función que devuelva la serie de Fibonacci hasta un número dado.
+
+#77. Crea una función que devuelva la factorización de un número.
+
+#78. Crea una función que elimine los espacios de una cadena.
+
+#79. Crea una función que reciba un texto y cuente cuántas palabras tiene.
+
+#80. Crea una función que reciba un texto y reemplace todas las vocales por una "x".
+
+#81. Crea una función que reciba una lista de números y devuelva solo los pares.
+
+#82. Crea una función que determine si una palabra está en una lista.
+
+#83. Crea una función que ordene una lista de palabras alfabéticamente.
+
+#84. Crea una función que reciba una lista y devuelva una nueva sin duplicados.
+
+#85. Crea una función que reciba una lista y la divida en dos mitades.
+
+#86. Crea un programa que simule una calculadora.
+
+#87. Crea un programa que solicite contraseñas hasta que el usuario acierte.
+
+#88. Crea un programa que pida números hasta que el usuario escriba "fin".
+
+#89. Crea un programa que analice un texto y muestre las palabras más usadas.
+
+#90. Crea un programa que verifique si una frase es un pangrama.
+
+#91. Crea un programa que cuente cuántos números primos hay en una lista.
+
+#92. Crea un programa que genere una lista de 100 números aleatorios y los ordene.
+
+#93. Crea un programa que simule el juego de "Piedra, Papel o Tijera".
+
+#94. Crea un programa que simule el juego de "Adivina el número".
+
+#95. Crea un programa que cuente la cantidad de palabras en un archivo de texto.
+
+#96. Crea un programa que genere una contraseña aleatoria.
+
+#97. Crea un programa que convierta números romanos a enteros.
+
+#98. Crea un programa que convierta enteros a números romanos.
+
+#99. Crea un programa que determine si dos palabras son anagramas.
+
+#100. Crea un programa que encripte y desencripte texto con un cifrado simple.
