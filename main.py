@@ -84,5 +84,9 @@ celsius = float(input("Cuántos grados Celsius quieres pasar a Fahrenheit: "))
 fahrenheit = float(celsius * 1.8 + 32.0)
 print(f"{celsius}° Celsius son {fahrenheit}° Fahrenheit")
 #13. Convierte kilómetros a millas.
+km = float(input("Cuantos km quieres pasar a millas "))
+millas = km / 1.60934
+print(f"{km} km son {millas}mi")
+#1,609,34 km = 1 mi
 #14. Calcula el área de un triángulo dados su base y altura.
 #15. Calcula el perímetro de un círculo dado su radio.
